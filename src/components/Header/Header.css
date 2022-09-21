@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: var(--header-color);
+  padding: 20px;
+  z-index: 10;
+}
+.header__left {
+}
+.header__left > img {
+  width: 100px;
+  -webkit-user-drag: none;
+  cursor: pointer;
+}
+.header__right {
+}
+.header__right > a {
+  color: var(--color-yellow);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline var(--color-yellow);
+}

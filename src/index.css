@@ -5,15 +5,15 @@
   margin: 0;
   font-family: PTRegular;
   -webkit-font-smoothing: antialiased;
+  user-select: none;
+  user-zoom: none;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  --header-color: #2b6777;
-  --background-color: #c8d8e4;
-  --color-white: #ffffff;
-  --color-gray: #f2f2f2;
-  --color-green: #52ab98;
+  --header-color: #323232;
+  --background-color: #f2f2f2;
+  --color-yellow: #eac52f;
   background-color: var(--background-color);
 }
 

@@ -1,15 +1,21 @@
 .app {
   display: flex;
   flex-direction: column;
+}
+.app__main {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 100vh;
-  max-height: 100vh;
+  flex-direction: column;
   overflow-y: hidden;
   overflow-x: hidden;
-  flex-direction: column;
 }
 ::-webkit-scrollbar {
   display: none;
+}
+a {
+  text-decoration: none;
+  color: cornflowerblue;
 }
 @media only screen and (max-width: 480px) {
   /* Mobile devices. */
